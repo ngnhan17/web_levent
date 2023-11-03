@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6bca1a9e31304a09b5359a81bcee7feb" Name="Diagram1">
+        <EntityTypeShape EntityType="leventModel.AdminUser" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="leventModel.Category" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="leventModel.Color_De" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="leventModel.Detail" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="leventModel.Order" Width="1.5" PointX="7.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="leventModel.Product" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="leventModel.Size_De" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="leventModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="leventModel.FK_Size_De_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="leventModel.FK_Details_Color_De" ManuallyRouted="false" />
+        <AssociationConnector Association="leventModel.FK_Details_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="leventModel.FK_Details_Size_De" ManuallyRouted="false" />
+        <AssociationConnector Association="leventModel.FK_Order_Details" ManuallyRouted="false" />
+        <AssociationConnector Association="leventModel.FK_Size_De_Details" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
